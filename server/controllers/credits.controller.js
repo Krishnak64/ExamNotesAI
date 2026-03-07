@@ -3,6 +3,7 @@ import UserModel from "../models/user.model.js";
 import dotenv from "dotenv"
 dotenv.config()
 
+// payment by strip
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 

@@ -1,6 +1,6 @@
 import Notes from "../models/notes.model.js"
 
-
+// getMyNotes
 export const getMyNotes = async (req, res) => {
     try {
         const notes = await Notes.find({user : req.userId}).select("topic classLevel examType reevisionMode includeDiagram includeChart createdAt").sort({createdAt: -1})

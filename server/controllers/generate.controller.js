@@ -3,6 +3,7 @@ import UserModel from "../models/user.model.js"
 import { generateGeminiResponse } from "../services/gemini.services.js"
 import { buildPrompt } from "../utils/promptBuilder.js"
 
+// generateNotes
 export const generateNotes = async (req, res) => {
     try {
         const {

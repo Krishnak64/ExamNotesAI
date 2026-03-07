@@ -1,5 +1,6 @@
 import UserModel from "../models/user.model.js"
 
+// getCurrentUser
 
 export const getCurrentUser = async (req, res) =>{
     try{
