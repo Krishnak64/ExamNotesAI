@@ -5,6 +5,7 @@ import img from "../assets/img1.png"
 import Footer from '../components/Footer'
 import { useNavigate } from 'react-router-dom'
 
+
 function Home() {
   const navigate = useNavigate()
   return (
