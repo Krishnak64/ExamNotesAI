@@ -4,7 +4,6 @@ import { motion } from "motion/react"
 import axios from 'axios'
 import { serverUrl } from '../App'
 
-
 function Pricing() {
 
   const navigate = useNavigate()
