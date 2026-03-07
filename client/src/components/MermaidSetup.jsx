@@ -6,6 +6,7 @@ mermaid.initialize({
     theme:"default"
 })
 
+
 const cleanMermaidChart = (diagram) => {
     if(!diagram) return "";
 
