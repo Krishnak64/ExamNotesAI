@@ -7,6 +7,7 @@ import axios from 'axios'
 import { serverUrl } from '../App'
 import { setUserData } from '../redux/userSlice'
 
+
 function Footer() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
