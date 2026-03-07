@@ -8,4 +8,3 @@ try{
     return resizeBy.status(500).json(`gen token error ${error}`)
   }
 }
-

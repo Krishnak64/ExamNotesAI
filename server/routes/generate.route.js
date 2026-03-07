@@ -4,6 +4,7 @@ import { generateNotes } from "../controllers/generate.controller.js";
 import { getMyNotes, getSingleNotes } from "../controllers/notes.controller.js";
 
 
+
 const notesRouter = express.Router()
 
 notesRouter.post("/generate-notes", isAuth, generateNotes)
