@@ -4,6 +4,7 @@ import { generateNotes } from '../services/api'
 import { useDispatch } from 'react-redux'
 import { updateCredits } from '../redux/userSlice'
 
+
 function TopicForm({setResult, setLoading, loading, setError}) {
     const [topic, setTopic] = useState("")
     const [classLevel, setClassLevel] = useState("")
