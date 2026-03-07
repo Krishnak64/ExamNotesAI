@@ -12,7 +12,6 @@ import PaymentSuccess from './pages/PaymentSuccess'
 import PaymentFailed from './pages/PaymentFailed'
 export const serverUrl = "http://localhost:8000"
 
-
 function App() {
 
   const dispatch = useDispatch()
