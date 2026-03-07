@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux'
 import { GiHamburgerMenu } from "react-icons/gi";
 import FinalResult from '../components/FinalResult'
 
+
 function History() {
   const [topics, setTopics] = useState([])
   const navigate = useNavigate();

@@ -7,6 +7,7 @@ import { serverUrl } from '../App'
 import { useNavigate } from 'react-router-dom'
 import { setUserData } from '../redux/userSlice'
 
+
 function Navbar() {
   const {userData} = useSelector((state) => state.user)
   const credits = userData.credits

@@ -4,6 +4,7 @@ import MermaidSetup from './MermaidSetup';
 import RechartSetup from './RechartSetup';
 import { downloadPdf } from '../services/api';
 
+
 const markDownComponent = {
      h1: ({children}) => (
       <h1 className='text-2xl font-bold text-indigo-700 mt-6 mb-4 border-b pd-2'>
@@ -200,6 +201,7 @@ function SectionHeader({icon, title, color}){
 
        </div>
     )
+     
 }
 
 export default FinalResult

@@ -3,6 +3,7 @@
 // 
 //  export default  function RechartSetup({charts}) {
 // 
+
 //   if (!charts || charts.length === 0) return null;
 //   const COLORS = ["#6366f1", "#22c55e", "#f59e0b", "ef4444", "#06b6d4"]
 // 
