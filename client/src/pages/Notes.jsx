@@ -6,6 +6,7 @@ import TopicForm from '../components/TopicForm';
 import Sidebar from '../components/Sidebar';
 import FinalResult from '../components/FinalResult'
 
+
 function Notes() {
   const navigate = useNavigate();
   const {userData} = useSelector((state) => state.user)
